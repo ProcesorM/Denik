@@ -1,0 +1,21 @@
+﻿<Window x:Class="Deník.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deník"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="DatumBox" HorizontalAlignment="Left" Height="167" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290"/>
+        <TextBox Name="TextBox" AcceptsReturn="True" HorizontalAlignment="Left" Height="247" Margin="10,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="290"/>
+        <Button Name="Predchozi" Content="Předchozí" HorizontalAlignment="Left" Height="47" Margin="382,41,0,0" VerticalAlignment="Top" Width="101" Click="Predchozi_Click"/>
+        <Button Name="Dalsi" Content="Další" HorizontalAlignment="Left" Height="47" Margin="382,93,0,0" VerticalAlignment="Top" Width="101" Click="Dalsi_Click"/>
+        <Button Name="Novy" Content="Nový" HorizontalAlignment="Left" Height="47" Margin="382,145,0,0" VerticalAlignment="Top" Width="101" Click="Novy_Click"/>
+        <Button Name="Ulozit" Content="Uložit" HorizontalAlignment="Left" Height="47" Margin="382,197,0,0" VerticalAlignment="Top" Width="101" Click="Ulozit_Click"/>
+        <Button Name="Smazat" Content="Smazat" HorizontalAlignment="Left" Height="48" Margin="382,248,0,0" VerticalAlignment="Top" Width="101" Click="Smazat_Click"/>
+        <Button Name="Ukoncit" Content="Ukončit" HorizontalAlignment="Left" Height="48" Margin="382,300,0,0" VerticalAlignment="Top" Width="101" Click="Ukoncit_Click"/>
+        <Label Name="Pocet" Content="" HorizontalAlignment="Left" Margin="432,368,0,0" VerticalAlignment="Top" Height="26" Width="102" RenderTransformOrigin="0.124,0.824"/>
+        <Label Name="Label" Content="Počet záznamů:" HorizontalAlignment="Left" Margin="332,368,0,0" VerticalAlignment="Top" Height="26" Width="100" RenderTransformOrigin="0.124,0.824"/>
+    </Grid>
+</Window>
