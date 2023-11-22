@@ -92,12 +92,12 @@ namespace Deník
         }
         public void Predchozi()
         {
-            denik.Predchozi();
+            denik.GetPrevZaznam();
             ZobrazAktualniZaznam();
         }
         public void Dalsi()
         {
-            denik.Dalsi();
+            denik.GetNextZaznam();
             ZobrazAktualniZaznam();
         }
         public void Ukoncit()

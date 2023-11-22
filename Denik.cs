@@ -32,7 +32,7 @@ namespace Deník
         {
             return aktualniZaznam?.Value;
         }
-        public void Predchozi()
+        public void GetPrevZaznam()
         {
             if (aktualniZaznam != null)
             {
@@ -46,7 +46,7 @@ namespace Deník
                 }
             }
         }
-        public void Dalsi()
+        public void GetNextZaznam()
         {
             if (aktualniZaznam != null)
             {
